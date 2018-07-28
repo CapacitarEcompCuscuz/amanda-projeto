@@ -116,7 +116,6 @@
 		height:400px;
 		background-color:#ffffff;
 		padding-left:1em ;
-		margin-bottom: 3em;
 	}
 	.servico1
 	{
@@ -200,10 +199,10 @@
 
 	<div class="contactinfo">
 		<div class="cordocontactinfo">
-			<h1 class="titulocontact">Lorem ipsum cubilia adipiscing ornare consequat condimentum sem</h1>
-			<p class="contactexp">Lorem ipsum cubilia</p>
-			<p class="phonenumber">(00) 0000-0000</p>
-			<button class="botaocontato">Contact Us</button>
+			<a class="titulocontact" align="center">Lorem ipsum cubilia adipiscing ornare consequat condimentum sem</a>
+			<a class="contactexp">Lorem ipsum cubilia</a>
+			<a class="phonenumber">(00) 0000-0000</a>
+			<a  href="contato.html"><button class="botaocontato">Contact Us</button></a>
 		</div>
 	</div>
 	<style type="text/css">
@@ -221,32 +220,33 @@
 		}
 		.titulocontact
 		{
+			text-align: center;
+			float:left;
+			width: 100%;
 			font-family: "Candara";
 			font-size: 2em;
-			font-weight: lighter;
-			color: white;	
-			position: absolute;
-			left: 15%;
-			margin-top: 5%;		
+			margin-top: 3%;
+			color: white;
 		}
 		.contactexp
 		{
+			text-align: center;
+			float:left;
+			width: 100%;
 			font-family: "Candara";
 			font-size: 2em;
-			font-weight: lighter;
-			position:absolute;
-			left: 40%;
-			margin-top: 10%;
+			margin-top: 3%;
 			color: #5dd9c0;
 		}
 		.phonenumber
 		{
+			text-align: center;
+			float:left;
+			width: 100%;
 			font-family: "Candara";
-			font-size: 2.2em;
 			font-weight: lighter;
-			position:absolute;
-			left: 41%;
-			margin-top: 15%;
+			font-size: 2em;
+			margin-top: 3%;
 			color: #cec075;
 		}
 		.botaocontato
@@ -255,16 +255,16 @@
 			border-radius: 15px;
 			border-color: 0px #5dd9c0;
 			border-width: 0px;
-			padding: 35px;
-			padding-top: 8px;
-			padding-bottom: 8px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 30px;
+			padding-right: 30px; 
 			font-family: "Candara";
 			font-size: 1.6em;
 			font-weight: lighter;
-			position:absolute;
-			left: 43%;
-			margin-top: 20%;
-			color: white;
+			margin-top: 2%;
+			color:white;
+			margin-left: 44%;
 		}
 	</style>
 
@@ -298,6 +298,7 @@ praesent eget fermentum eros aliquam, euismod a potentiLorem ipsum cubilia adipi
 		.textodovideo
 		{
 			float: left;
+			font-size: 1.1em;
 		}
 		.opropriovideo
 		{
@@ -315,17 +316,22 @@ praesent eget fermentum eros aliquam, euismod a potentiLorem ipsum cubilia adipi
 		}
 		.footer
 		{
+			margin: 0px;
 			height: 30px;
 			background-color: #1e2136;
 			text-align: center;
 			color: white;
 			font-family: "Candara";
 			font-weight: lighter;
-			margin-bottom: 0px;
+			width: 100%;
+		}
+		a
+		{
+			margin-top: 5px;
 		}
 	</style>
 	<div class="footer">
-		<h4>@Copyright Capacitar Poli Júnior Engenharia</h4>
+		<a color=>@Copyright Capacitar Poli Júnior Engenharia</a>
 	</div>
 </body>
 </html>
